@@ -167,3 +167,6 @@ Convolutional layers are a structural assumption. When that assumption does not 
 In summary: use convolution when the data has **local spatial structure and position-relative patterns**. When that condition is not met, convolution introduces the wrong inductive bias and can hinder learning.
 
 ---
+
+### Why is there no evidence of the deployment in SageMaker?
+It turns out that when attempting it, the same issue occurred as in the previous lab: due to permission problems with our role, a network issue arises that ultimately prevents us from completing the deployment properly or creating the endpoint for correct verification.
